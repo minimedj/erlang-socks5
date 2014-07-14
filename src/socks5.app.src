@@ -1,0 +1,11 @@
+{application, socks5,
+ [
+  {description, "SOCKS5 implementation from R10B"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
